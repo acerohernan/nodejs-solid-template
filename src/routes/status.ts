@@ -7,5 +7,5 @@ export function register(router: Router) {
     ContainerTypes.StatusController
   );
 
-  router.get("/status", (req, res) => controller.getHandler(req, res));
+  router.get("/status", (req, res) => controller.getStatusHandler(req, res));
 }

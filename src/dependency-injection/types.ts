@@ -12,4 +12,11 @@ export const ContainerTypes = {
    * @author acerohernan
    */
   StatusController: Symbol.for("StatusController"),
+
+  /**
+   * UserController
+   * @description this is the controller for the user endpoints
+   * @author acerohernan
+   */
+  UserController: Symbol.for("UserController"),
 };
