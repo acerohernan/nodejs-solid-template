@@ -1,0 +1,19 @@
+68d8b5a7313fab8fa1706c76e2b62930
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.ContainerTypes = void 0;
+exports.ContainerTypes = {
+    /**
+     * Logger
+     * @description app logger
+     * @author acerohernan
+     */
+    Logger: Symbol.for("Logger"),
+    /**
+     * StatusControler
+     * @description this is the controller for the status endpoints
+     * @author acerohernan
+     */
+    StatusController: Symbol.for("StatusController"),
+};
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJmaWxlIjoiL2hvbWUvaGVybmFuL0Rlc2t0b3AvUHJvamVjdHMvdGVtcGxhdGVzL25vZGVqcy1zb2xpZC10ZW1wbGF0ZS9zcmMvZGVwZW5kZW5jeS1pbmplY3Rpb24vdHlwZXMudHMiLCJtYXBwaW5ncyI6Ijs7O0FBQWEsUUFBQSxjQUFjLEdBQUc7SUFDNUI7Ozs7T0FJRztJQUNILE1BQU0sRUFBRSxNQUFNLENBQUMsR0FBRyxDQUFDLFFBQVEsQ0FBQztJQUU1Qjs7OztPQUlHO0lBQ0gsZ0JBQWdCLEVBQUUsTUFBTSxDQUFDLEdBQUcsQ0FBQyxrQkFBa0IsQ0FBQztDQUNqRCxDQUFDIiwibmFtZXMiOltdLCJzb3VyY2VzIjpbIi9ob21lL2hlcm5hbi9EZXNrdG9wL1Byb2plY3RzL3RlbXBsYXRlcy9ub2RlanMtc29saWQtdGVtcGxhdGUvc3JjL2RlcGVuZGVuY3ktaW5qZWN0aW9uL3R5cGVzLnRzIl0sInNvdXJjZXNDb250ZW50IjpbImV4cG9ydCBjb25zdCBDb250YWluZXJUeXBlcyA9IHtcbiAgLyoqXG4gICAqIExvZ2dlclxuICAgKiBAZGVzY3JpcHRpb24gYXBwIGxvZ2dlclxuICAgKiBAYXV0aG9yIGFjZXJvaGVybmFuXG4gICAqL1xuICBMb2dnZXI6IFN5bWJvbC5mb3IoXCJMb2dnZXJcIiksXG5cbiAgLyoqXG4gICAqIFN0YXR1c0NvbnRyb2xlclxuICAgKiBAZGVzY3JpcHRpb24gdGhpcyBpcyB0aGUgY29udHJvbGxlciBmb3IgdGhlIHN0YXR1cyBlbmRwb2ludHNcbiAgICogQGF1dGhvciBhY2Vyb2hlcm5hblxuICAgKi9cbiAgU3RhdHVzQ29udHJvbGxlcjogU3ltYm9sLmZvcihcIlN0YXR1c0NvbnRyb2xsZXJcIiksXG59O1xuIl0sInZlcnNpb24iOjN9

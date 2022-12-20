@@ -1,0 +1,21 @@
+0210b140e0392b356a7087e18d0e3ef1
+"use strict";
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.StatusController = void 0;
+const inversify_1 = require("inversify");
+let StatusController = class StatusController {
+    async getHandler(req, res) {
+        res.status(200).send("OK");
+    }
+};
+StatusController = __decorate([
+    (0, inversify_1.injectable)()
+], StatusController);
+exports.StatusController = StatusController;
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJmaWxlIjoiL2hvbWUvaGVybmFuL0Rlc2t0b3AvUHJvamVjdHMvdGVtcGxhdGVzL25vZGVqcy1zb2xpZC10ZW1wbGF0ZS9zcmMvbW9kdWxlcy9zdGF0dXMvc3RhdHVzLmNvbnRyb2xsZXIudHMiLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7O0FBQ0EseUNBQXVDO0FBR2hDLElBQU0sZ0JBQWdCLEdBQXRCLE1BQU0sZ0JBQWdCO0lBQzNCLEtBQUssQ0FBQyxVQUFVLENBQUMsR0FBWSxFQUFFLEdBQWE7UUFDMUMsR0FBRyxDQUFDLE1BQU0sQ0FBQyxHQUFHLENBQUMsQ0FBQyxJQUFJLENBQUMsSUFBSSxDQUFDLENBQUM7SUFDN0IsQ0FBQztDQUNGLENBQUE7QUFKWSxnQkFBZ0I7SUFENUIsSUFBQSxzQkFBVSxHQUFFO0dBQ0EsZ0JBQWdCLENBSTVCO0FBSlksNENBQWdCIiwibmFtZXMiOltdLCJzb3VyY2VzIjpbIi9ob21lL2hlcm5hbi9EZXNrdG9wL1Byb2plY3RzL3RlbXBsYXRlcy9ub2RlanMtc29saWQtdGVtcGxhdGUvc3JjL21vZHVsZXMvc3RhdHVzL3N0YXR1cy5jb250cm9sbGVyLnRzIl0sInNvdXJjZXNDb250ZW50IjpbImltcG9ydCB7IFJlcXVlc3QsIFJlc3BvbnNlIH0gZnJvbSBcImV4cHJlc3NcIjtcbmltcG9ydCB7IGluamVjdGFibGUgfSBmcm9tIFwiaW52ZXJzaWZ5XCI7XG5cbkBpbmplY3RhYmxlKClcbmV4cG9ydCBjbGFzcyBTdGF0dXNDb250cm9sbGVyIHtcbiAgYXN5bmMgZ2V0SGFuZGxlcihyZXE6IFJlcXVlc3QsIHJlczogUmVzcG9uc2UpOiBQcm9taXNlPHZvaWQ+IHtcbiAgICByZXMuc3RhdHVzKDIwMCkuc2VuZChcIk9LXCIpO1xuICB9XG59XG4iXSwidmVyc2lvbiI6M30=

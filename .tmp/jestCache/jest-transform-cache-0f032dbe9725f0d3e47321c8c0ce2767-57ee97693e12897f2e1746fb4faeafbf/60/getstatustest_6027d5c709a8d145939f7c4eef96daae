@@ -1,0 +1,14 @@
+169320b6c8620c31d8103646b07c7177
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const app_1 = require("../../../src/app");
+let server;
+beforeAll(async () => {
+    server = new app_1.App().httpServer;
+});
+describe("GET /status", () => {
+    it("should send a 200 response status code", async () => {
+        console.log(server);
+    });
+});
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJmaWxlIjoiL2hvbWUvaGVybmFuL0Rlc2t0b3AvUHJvamVjdHMvdGVtcGxhdGVzL25vZGVqcy1zb2xpZC10ZW1wbGF0ZS90ZXN0cy9zdGF0dXMvZTJlL2dldC1zdGF0dXMudGVzdC50cyIsIm1hcHBpbmdzIjoiOztBQUNBLDBDQUF1QztBQUV2QyxJQUFJLE1BQW1CLENBQUM7QUFFeEIsU0FBUyxDQUFDLEtBQUssSUFBSSxFQUFFO0lBQ25CLE1BQU0sR0FBRyxJQUFJLFNBQUcsRUFBRSxDQUFDLFVBQVUsQ0FBQztBQUNoQyxDQUFDLENBQUMsQ0FBQztBQUVILFFBQVEsQ0FBQyxhQUFhLEVBQUUsR0FBRyxFQUFFO0lBQzNCLEVBQUUsQ0FBQyx3Q0FBd0MsRUFBRSxLQUFLLElBQUksRUFBRTtRQUN0RCxPQUFPLENBQUMsR0FBRyxDQUFDLE1BQU0sQ0FBQyxDQUFDO0lBQ3RCLENBQUMsQ0FBQyxDQUFDO0FBQ0wsQ0FBQyxDQUFDLENBQUMiLCJuYW1lcyI6W10sInNvdXJjZXMiOlsiL2hvbWUvaGVybmFuL0Rlc2t0b3AvUHJvamVjdHMvdGVtcGxhdGVzL25vZGVqcy1zb2xpZC10ZW1wbGF0ZS90ZXN0cy9zdGF0dXMvZTJlL2dldC1zdGF0dXMudGVzdC50cyJdLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgaHR0cCBmcm9tIFwiaHR0cFwiO1xuaW1wb3J0IHsgQXBwIH0gZnJvbSBcIi4uLy4uLy4uL3NyYy9hcHBcIjtcblxubGV0IHNlcnZlcjogaHR0cC5TZXJ2ZXI7XG5cbmJlZm9yZUFsbChhc3luYyAoKSA9PiB7XG4gIHNlcnZlciA9IG5ldyBBcHAoKS5odHRwU2VydmVyO1xufSk7XG5cbmRlc2NyaWJlKFwiR0VUIC9zdGF0dXNcIiwgKCkgPT4ge1xuICBpdChcInNob3VsZCBzZW5kIGEgMjAwIHJlc3BvbnNlIHN0YXR1cyBjb2RlXCIsIGFzeW5jICgpID0+IHtcbiAgICBjb25zb2xlLmxvZyhzZXJ2ZXIpO1xuICB9KTtcbn0pO1xuIl0sInZlcnNpb24iOjN9
